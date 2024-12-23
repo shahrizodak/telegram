@@ -1,0 +1,410 @@
+@font-face {
+    font-display: swap;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./fonts/Rubik-Regular.woff2") format("woff2"),
+        url("./fonts/Rubik-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    src: url("./fonts/Rubik-Medium.woff2") format("woff2"),
+        url("./fonts/Rubik-Medium.woff") format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+body {
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 500;
+}
+
+
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-top {
+    background-color: #f6f6f6;
+    padding: 30px 0px;
+}
+
+.hero-top-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-top-left {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.link-logo {
+    text-decoration: none;
+}
+
+.header-prices {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.header-price {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+}
+
+.valyuta {
+    color: rgb(41, 89, 206);
+}
+
+.header-top-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header-search {
+    padding: 13px 15px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+}
+
+.header-languages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 3px;
+    background-color: #dce6ff;
+    border-radius: 39px;
+    gap: 8px;
+}
+
+.language {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.41px;
+}
+
+.language-uzb {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.language-rus {
+    padding-right: 10px;
+}
+
+.sign-up {
+    padding: 13px 20px;
+    color: white;
+    background-color: #7296ec;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    line-height: 18.96px;
+    text-decoration: none;
+}
+
+.header-nav {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.header-link {
+    font-size: 18px;
+    line-height: 21.33px;
+    color: #7f7f7f;
+    text-decoration: none;
+}
+
+
+
+
+.ar-img {
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.desc-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.44px;
+    width: 83px;
+    height: 28px;
+}
+
+
+.div-all {
+    display: flex;
+
+}
+
+
+.desc-list {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+    background-color: #f6f6f6;
+    border-radius: 15px;
+}
+
+.desc-img {
+    margin: 20px 0 20px 17px;
+    align-items: flex-start;
+}
+
+.desc-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    width: 535px;
+    height: 52px;
+    margin: 20px 20px 10px 15px;
+}
+
+.desc-detail {
+    width: 535px;
+    height: 66px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #4a4b4c;
+    margin-bottom: 17px;
+    margin: 0 20px 17px 15px;
+}
+
+
+.desc-span {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 15px;
+}
+
+.desc-span-small {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.22px;
+    color: #5E5F61;
+
+}
+
+.img-desc {
+    border-radius: 5px 0px 0px 0px;
+}
+
+.desc-btn {
+    padding: 17px 348px 17px 348px;
+    gap: 10px;
+    border-radius: 10px;
+    border: none;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.96px;
+    background-color: #eaeaea;
+    text-align: center;
+    color: #000000;
+    margin: 17px 0 100px 0;
+}
+
+
+
+.small-desc-title {
+    padding-top: 20px;
+}
+
+
+
+.small-desc-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.desc-left-top {
+    width: 393px;
+    background-color: #f6f6f6;
+    border-radius: 15px;
+    padding: 0 17px;
+}
+
+.small-desc-list {
+    list-style: none;
+}
+
+.small-desc-tit {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+.small-desc-adress {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.41px;
+    color: #5e5f61;
+    margin-top: 8px;
+}
+
+.small-desc-items {
+    border-bottom: 1px solid #D2D2D2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.small-desc-items-last {
+    padding-bottom: 25px;
+    margin-top: 20px;
+}
+
+.desc-ar {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+.site-foot {
+    background-image: url(./images/foot\ color.png);
+}
+
+.foot-list {
+    list-style: none;
+}
+
+.foot-center {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foot-info {
+    width: 229px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 15px 35px 71px 0;
+}
+
+.foot-link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.foot-top {
+    border-bottom: 1px solid #cecece;
+}
+
+.foot-container {
+    padding: 40px 101px;
+}
+
+.foot-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foot-ul {
+    list-style: none;
+}
+
+.foot-items {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.96px;
+}
+
+.foot-ul-one {
+    margin-left: 203px;
+}
+
+.foot-ul-two {
+    margin-left: 100px;
+}
+
+
+
+.foot-img-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.foot-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.fot-info {
+    width: 161px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+}
+
